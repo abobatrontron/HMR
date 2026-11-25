@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "hmr",
+	"version": "${version}",
+	"name": "HMR",
+	"description": "Harder Minecraft Recipes - A mod changing the recipes of minecraft! HMR is a mod that makes minecraft harder, yet still trying to make it fun. This is not an expert mod. Anyone can beat it! Have fun, and try not to suffer!",
+	"authors": [
+		"Abobatrontron",
+		"Credits to - ",
+		"Not car",
+		"Realiste",
+		"Highkeyoli",
+		"You!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/hmr/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.abobatrontron.hmr.HMR"
+		],
+		"fabric-datagen": [
+			"net.abobatrontron.hmr.HMRDataGenerator"
+		]
+	},
+	"mixins": [
+		"hmr.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
