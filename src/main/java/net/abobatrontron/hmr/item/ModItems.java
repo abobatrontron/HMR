@@ -24,7 +24,7 @@ public class ModItems {
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(HMR.MOD_ID, name)))));
     }
 
-    // Code above Registers an Item, or a helper
+    // Code above Registers an Item, another name is a helper
 
     public static void registerModItems() {
         HMR.LOGGER.info("Registering Mod Items for " + HMR.MOD_ID);
