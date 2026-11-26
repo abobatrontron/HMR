@@ -17,7 +17,7 @@ public class HMR implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Testing Testing 1 2 3");
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 
 		ModItems.registerModItems();
