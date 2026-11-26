@@ -1,5 +1,7 @@
 package net.abobatrontron.hmr;
 
+import net.abobatrontron.hmr.creativemodetab.ModCreativeModeTabs;
+import net.abobatrontron.hmr.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -16,6 +18,9 @@ public class HMR implements ModInitializer {
 	public void onInitialize() {
 
 		LOGGER.info("Hello Fabric world!");
+		ModCreativeModeTabs.registerModCreativeModeTabs();
+
+		ModItems.registerModItems();
 	}
 
 	public static Identifier id(String path) {
